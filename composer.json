@@ -1,0 +1,23 @@
+{
+	"name" : "gifang/report",
+	"description" : "Gifang report system",
+	"type" : "library",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Yijie SHEN",
+            "email": "shenyijie5580@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"": "app"}
+    }, 
+    "require": {
+        "php": ">=5.2.0",
+        "phpoffice/phpexcel" : "dev-master",
+        "catfan/medoo" : "dev-master",
+        "symfony/yaml" : "2.6.x-dev",
+        "phpmailer/phpmailer": "~5.2"
+    }
+}

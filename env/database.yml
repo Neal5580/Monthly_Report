@@ -1,0 +1,7 @@
+database:
+    database_type : mysql
+    database_name : gifang_2016_04_01
+    server : localhost
+    username : root
+    password : 
+    charset : utf8
